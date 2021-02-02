@@ -1,4 +1,4 @@
-# Stamps-appscripts
+# Stamp-appscripts
 
 https://stampit.js.org exposed via appsscripts library. Possibly a more accessible way to build composable objects for the citizen developer. If the world of prototypes and classes throws you, but you still want to build things in AppsScripts like you can build things with Lego, this may be for you.
 
