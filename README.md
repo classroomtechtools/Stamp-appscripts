@@ -29,8 +29,11 @@ function myFunction () {
     }
   });
   
+  // make an instance
   const point = Point();
-  Logger.log(Point);  // {x: 0, y: 0}
+  
+  // display the instance
+  Logger.log(point);  // {x: 0.0, y: 0.0}
 }
 ```
 
