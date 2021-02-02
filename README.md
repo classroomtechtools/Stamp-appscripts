@@ -65,3 +65,19 @@ Equivalents:
 - `Stamp.statics` = `stampit.statics`
 - `Stamp.compose` = `stampit.compose`
 
+# Alternative installation
+
+Instead of adding it as a library, you can manually add it to your project and run via the online editor.
+
+This library is really just a "wrapper" library for an existing npm module, just one that I find really interesting. If you prefer, you can copy the `Bundle.js` file and copy it into your project, and then use it like this:
+
+```js
+function myFunction () {
+    // sorta like importing:
+    const {stampit} = Import;   // <-
+
+    // use it the same way the npm module documents
+    const Point = stampit({...});
+    const Another = stampit.init(function () {...});
+}
+```
