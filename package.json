@@ -1,9 +1,9 @@
 {
-  "name": "stamp",
+  "name": "@classroomtechtoosl/stamp-appscripts",
   "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/classroomtechtools/appsscript-module-template.git"
+    "url": "git+https://github.com/classroomtechtools/Stamp-appscripts"
   },
   "type": "module",
   "license": "MIT",
@@ -43,9 +43,9 @@
   ],
   "description": "stamp",
   "bugs": {
-    "url": "https://github.com/classroomtechtools/appsscript-module-template/issues"
+    "url": "https://github.com/classroomtechtools/Stamp-appscripts/issues"
   },
-  "homepage": "https://github.com/classroomtechtools/appsscript-module-template#readme",
+  "homepage": "https://github.com/classroomtechtools/Stamp-appscripts",
   "directories": {
     "test": "tests"
   },
@@ -53,5 +53,5 @@
     "@stamp/core": "^1.0.1",
     "@stamp/it": "^1.1.0"
   },
-  "author": "adam"
+  "author": "Adam Morris <classroomtechtools.ctt@gmail.com>"
 }
